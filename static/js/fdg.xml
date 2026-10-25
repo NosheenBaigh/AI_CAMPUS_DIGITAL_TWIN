@@ -1,0 +1,7 @@
+{
+    "employeeID":"S101",
+    "name":"Nosheen",
+    "Department":"CSE",
+    "salary":30000,
+    "skills":["javascript","HTML","css"]
+}

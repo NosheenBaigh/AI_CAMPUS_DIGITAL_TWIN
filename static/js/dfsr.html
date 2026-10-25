@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="number" id="age">
+        <button id="check">click me </button>
+        <p id="result"></p>
+        <script>
+            $(document).ready(function(){
+                $("#check").click(function(){
+                    let age = $("#age").val();
+                    $("#result").text(age);
+
+                });
+
+            });
+        </script>
+    </body>
+</html>
